@@ -23,7 +23,7 @@ public class SpiffeKeyManager extends X509ExtendedKeyManager {
 
     private SpiffeIdManager spiffeIdManager;
 
-    SpiffeKeyManager() {
+    public SpiffeKeyManager() {
         spiffeIdManager = SpiffeIdManager.getInstance();
     }
 
